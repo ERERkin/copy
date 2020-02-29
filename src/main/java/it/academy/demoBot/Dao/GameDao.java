@@ -31,7 +31,8 @@ public class GameDao {
 
     public static boolean updateButton(int button, int update){
         String but = "button" + button;
-        String SQL = "update tic_tac set" + but + " = ?;";
+        System.out.println(but + " " + update);
+        String SQL = "update tic_tac set " + but + " = ?;";
         try (Connection connection = DB.connect();
              PreparedStatement statement = connection.prepareStatement(SQL);) {
             statement.setInt(1,update);

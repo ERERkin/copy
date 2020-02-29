@@ -2,9 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6974ec8f-9c74-4a3d-8745-a6ef9eafd716" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/academy/demoBot/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b460e826-6a9b-4b81-893e-b16d14d84175.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b460e826-6a9b-4b81-893e-b16d14d84175.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b460e826-6a9b-4b81-893e-b16d14d84175/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b460e826-6a9b-4b81-893e-b16d14d84175/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/academy/demoBot/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/academy/demoBot/Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/it/academy/demoBot/Dao/GameDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/academy/demoBot/Dao/GameDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/academy/demoBot/Infrastructure/State.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/academy/demoBot/Infrastructure/State.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/academy/demoBot/handlers/Bot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/academy/demoBot/handlers/Bot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/academy/demoBot/Dao/GameDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/it/academy/demoBot/Dao/GameDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/academy/demoBot/Infrastructure/State.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/it/academy/demoBot/Infrastructure/State.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/academy/demoBot/handlers/Bot$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/it/academy/demoBot/handlers/Bot$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/it/academy/demoBot/handlers/Bot.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/it/academy/demoBot/handlers/Bot.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,6 +137,11 @@
                 <item name="root:postgres@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
                 <item name="com.intellij.database.console.session.MessageBusSession@3995dba0" type="9fbbdea:ServiceModel$ServiceNode" />
               </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:postgres@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@24031394" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
             </expand>
             <select />
           </treeState>
@@ -145,7 +159,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1582968444826</updated>
-      <workItem from="1582968447748" duration="9267000" />
+      <workItem from="1582968447748" duration="16601000" />
     </task>
     <task id="LOCAL-00001" summary="added pr">
       <created>1582976786969</created>
@@ -154,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582976786969</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added pr">
+      <created>1582977730521</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1582977730521</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,26 +198,26 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="412" y="147" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1582968579866" />
-    <state x="253" y="0" key="CommitChangelistDialog2" timestamp="1582976785755">
+    <state x="253" y="0" key="CommitChangelistDialog2" timestamp="1582977729851">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="253" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1582976785755" />
-    <state width="1320" height="178" key="GridCell.Tab.0.bottom" timestamp="1582974432041">
+    <state x="253" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1582977729851" />
+    <state width="1320" height="178" key="GridCell.Tab.0.bottom" timestamp="1582984783154">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1320" height="178" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582974432041" />
-    <state width="1320" height="178" key="GridCell.Tab.0.center" timestamp="1582974432041">
+    <state width="1320" height="178" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582984783154" />
+    <state width="1320" height="178" key="GridCell.Tab.0.center" timestamp="1582984783154">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1320" height="178" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1582974432041" />
-    <state width="1320" height="178" key="GridCell.Tab.0.left" timestamp="1582974432041">
+    <state width="1320" height="178" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1582984783154" />
+    <state width="1320" height="178" key="GridCell.Tab.0.left" timestamp="1582984783154">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1320" height="178" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1582974432041" />
-    <state width="1320" height="178" key="GridCell.Tab.0.right" timestamp="1582974432041">
+    <state width="1320" height="178" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1582984783154" />
+    <state width="1320" height="178" key="GridCell.Tab.0.right" timestamp="1582984783154">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1320" height="178" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1582974432041" />
+    <state width="1320" height="178" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1582984783154" />
     <state width="1320" height="222" key="GridCell.Tab.1.bottom" timestamp="1582971410157">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -213,13 +234,25 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1320" height="222" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1582971410157" />
-    <state x="275" y="88" key="Vcs.Push.Dialog.v2" timestamp="1582976801035">
+    <state x="275" y="88" key="Vcs.Push.Dialog.v2" timestamp="1582977732745">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="88" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1582976801035" />
+    <state x="275" y="88" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1582977732745" />
     <state x="579" y="257" width="326" height="235" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1582973856282">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="579" y="257" width="326" height="235" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1366.728@0.0.1366.728" timestamp="1582973856282" />
+    <state x="93" y="100" width="1180" height="535" key="dock-window-1" timestamp="1582979001726">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="93" y="100" width="1180" height="535" key="dock-window-1/0.0.1366.728@0.0.1366.728" timestamp="1582979001726" />
+    <state x="93" y="100" width="1180" height="535" key="dock-window-2" timestamp="1582979001726">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="93" y="100" width="1180" height="535" key="dock-window-2/0.0.1366.728@0.0.1366.728" timestamp="1582979001726" />
+    <state x="93" y="100" width="1180" height="535" key="dock-window-3" timestamp="1582979001726">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="93" y="100" width="1180" height="535" key="dock-window-3/0.0.1366.728@0.0.1366.728" timestamp="1582979001726" />
   </component>
 </project>
