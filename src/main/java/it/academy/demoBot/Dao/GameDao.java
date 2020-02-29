@@ -70,11 +70,35 @@ public class GameDao {
         return game;
     }
 
-    public boolean finish(){
-        boolean ans = false;
+    public static boolean finish(){
         for(int i = 0; i < 9; i++) {
-            ans = updateButton(i + 1, 0);
+            updateButton(i + 1, 0);
         }
-        return ans;
+        String SQL = "update tic_tac set player_x = true, player_y = false;";
+        try (Connection connection = DB.connect();
+             PreparedStatement statement = connection.prepareStatement(SQL);) {
+            statement.executeUpdate();
+            return true;
+        } catch (SQLException | ClassNotFoundException e) {
+            e.printStackTrace();
+        }
+        return false;
+    }
+
+    public static boolean swap(){
+        Game game = GameDao.getLastGame();
+        boolean px = game.isPlayerY();
+        boolean py = game.isPlayerX();
+        String SQL = "update tic_tac set player_x = ?, player_y = ?;";
+        try (Connection connection = DB.connect();
+             PreparedStatement statement = connection.prepareStatement(SQL);) {
+            statement.setBoolean(1,px);
+            statement.setBoolean(2,py);
+            statement.executeUpdate();
+            return true;
+        } catch (SQLException | ClassNotFoundException e) {
+            e.printStackTrace();
+        }
+        return false;
     }
 }
