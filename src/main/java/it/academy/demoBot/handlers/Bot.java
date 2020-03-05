@@ -407,12 +407,12 @@ public class Bot extends TelegramLongPollingBot {
 
     @Override
     public String getBotUsername() {
-        return "tic_tactoe_bot";
+        return "xo_xo_xo_bot";
     }
 
     @Override
     public String getBotToken() {
-        return "1110465489:AAE4CE06N9WTvR1Yt5rXsSumsvxcanCeT8Q";
+        return "1144686178:AAE_bTXYOwOA7kd27zEd0o9M2ct0wPwdWbU";
     }
 
     static String getLast(int button){

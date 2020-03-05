@@ -11,28 +11,28 @@
       <Owner>postgres</Owner>
       <IntrospectionStateNumber>2980</IntrospectionStateNumber>
       <Current>1</Current>
-      <Relations>sequence|table|16783|16785|1
-sequence|table|16868|16870|1
-sequence|table|17047|17049|1
+      <Relations>sequence|table|17047|17049|1
 sequence|table|17060|17062|1
 sequence|table|17154|17156|1
 sequence|table|17164|17166|1
 sequence|table|17172|17174|1
-sequence|table|17294|17296|1
-sequence|table|17463|17465|1
-sequence|table|17475|17477|1
-sequence|table|17487|17489|1
-sequence|table|17515|17517|1
-sequence|table|17592|17594|1
-sequence|table|17665|17667|1
-sequence|table|17680|17682|1
-sequence|table|17702|17704|1
-sequence|table|17710|17712|1
-sequence|table|17740|17742|1
+sequence|table|16783|16785|1
+sequence|table|16868|16870|1
 sequence|table|17755|17757|1
 sequence|table|17763|17765|1
 sequence|table|17773|17775|1
 sequence|table|17799|17801|1
+sequence|table|17592|17594|1
+sequence|table|17487|17489|1
+sequence|table|17515|17517|1
+sequence|table|17702|17704|1
+sequence|table|17710|17712|1
+sequence|table|17740|17742|1
+sequence|table|17665|17667|1
+sequence|table|17680|17682|1
+sequence|table|17294|17296|1
+sequence|table|17463|17465|1
+sequence|table|17475|17477|1
 </Relations>
     </database>
     <role id="3" parent="1" name="pg_execute_server_program">
